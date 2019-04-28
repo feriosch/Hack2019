@@ -15,6 +15,43 @@ body{
     height: 810px;
 }
 
+.container .isFish, .container .notFish{
+    position: absolute;
+    top: 601px;
+    font-size: 41px;
+    width: 50%;
+    right: 200px;
+    border: 4px solid black;
+    background: #FFFFE0;
+    padding: 17px;
+    text-align: justify;
+    height: 260px;
+    display: none;
+}
+
+.container .isFish{
+    height: 315px;
+}
+
+.container .ok, .container .ok2{
+    font-size: 37px;
+    font-weight: 800;
+    background-color: black;
+    color: white;
+    width: 64px;
+    border-radius: 8px;
+    text-align: center;
+    position: absolute;
+    top: 162px;
+    padding: 0px;
+    left: 218px;
+}
+
+.container .ok2{
+    top: 209px;
+    left: 232px;
+}
+
 .box{
     border-radius: 20px;
     padding: 40px 110px 13px 89px;
@@ -58,7 +95,7 @@ body{
     font-size: 40px;
 }
 
-.box input[type="submit"]{
+.box input[type="button"]{
     background: none;
     font-size: 40px;
     margin: 20px auto;

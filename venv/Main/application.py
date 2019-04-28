@@ -26,10 +26,6 @@ def home_page():
     else:
         return render_template('index.html')
 
-@app.route('/signUp')
-def signUp():
-    return render_template('pitero.html')
-
 @app.route('/signUpUser', methods=['POST'])
 def signUpUser():
     user =  request.form['user']

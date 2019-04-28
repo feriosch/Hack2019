@@ -13,6 +13,16 @@
     <div class="container">
             <div class="box">
                 <h1>Phishing Detector</h1>
+                    <div class="isFish">
+                    <p><b>CAUTION!</b> This is not a secure webpage, enter under your own responsability.
+                    </p>
+                    </div>
+                    
+                    <div class="notFish">
+                        <p><b>You're secure. This is a legit webpage</b>
+                        </p>
+                    </div>
+
                 <table>
                     <tr>
                         <h2>Ingresa el URL a detectar</h2>
@@ -23,19 +33,11 @@
                             <input type="button" value="Verificar" id="boton_url">
                         </th>
                     </tr>
-                    <tr>
-                        <th>
-                            <input type="text" name="correo" placeholder="Mail ej. banorte@hack.mx" id="correo">
-                        </th>
-                        <th>
-                            <input type="submit" name="btn" value="Verificar">
-                        </th>
-                    </tr>
                 </table>
                 <br>
                 <br>
                 <br>
-                <a href="index.html">Back to Index</a>
+                <a href="{{url_for('home_page')}}">Back to Index</a>
             </div>
     </div>
     
@@ -54,8 +56,17 @@
             req.done(function(data){
                vered = data.vered;
                console.log(vered);
+                //Si es phishing
+                 if(vered=="TRUE"){
+                    $(".isFish").show();
+                    $(".isFish").delay(8000).fadeOut(300);
+                //Si MO es phishing
+                 }else{
+                    $(".notFish").show();
+                    $(".notFish").delay(8000).fadeOut(300);
+                     
+                 }
             });
-
        });
     });
 </script>
