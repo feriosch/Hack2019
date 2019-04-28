@@ -13,9 +13,14 @@ from urllib.request import urlopen
 import ssl
 import csv
 import json as JSON
+from datetime import timedelta
+from flask import make_response, request, current_app
+from functools import update_wrapper
 
 app = Flask(__name__)
 app.secret_key = "ElPatatita"
+
+
 
 
 
@@ -63,9 +68,10 @@ def validar():
     return("Patata")
 
 
-@app.route('/validacion', methods=['POST','GET'])
+@app.route('/validacion', methods=['POST','GET','OPTIONS'])
 def validacion():
     if request.method == 'POST':
+        print(request.form)
         URL = request.form['url']
         parsed_uri = urlparse(URL)
         result = (parsed_uri.netloc)
@@ -198,7 +204,10 @@ def validacion():
         print("DEbug")
         veredicto = resultado['values'][0][16]
         print(resultado['values'][0][16])
+        print("json")
+        print("Gola")
+        print(type(jsonify({'status': 'OK', 'vered': veredicto})))
 
-        return jsonify({'status': 'OK', 'vered': veredicto })
+        return jsonify(status = 'OK', vered= veredicto)
     else:
         return render_template('validacion.html')

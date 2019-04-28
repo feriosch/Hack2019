@@ -3,7 +3,7 @@
     "version": "1.0",
     "description": "Detecta el phishing",
     "manifest_version": 2,
-    "permissions": ["storage","declarativeContent"],
+    "permissions": ["storage","declarativeContent","http://127.0.0.1:5000/validacion","tabs","http://hxxxxxxxxxxxxxxxx000/"],
     "content_scripts": [
   {
     "matches": [
@@ -14,5 +14,8 @@
 ],
     "page_action": {
         "default_popup": "popup.html"
-    }
+    },
+    "externally_connectable": {
+  "matches": ["http://127.0.0.1:5000/validacion"]
+}
 }
