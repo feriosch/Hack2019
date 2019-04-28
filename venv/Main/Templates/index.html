@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Phishing Tutorial</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
     
@@ -21,7 +21,7 @@
             <br>
             <br>
             <br>
-            <a href="validacion.html">Click for testing URL</a>
+            <a href="{{url_for('validacion')}}">Click for testing URL</a>
         </form>
     </div>
     
@@ -30,9 +30,9 @@
             <h1>Padlock</h1>
             <h2>How do we recognize a fake website?</h2>
             <h2>Legitimate Banorte's webpage: </h2>
-            <img src="img/banorte_ORIGINAL.png" id="banorte1">
-            <img src="img/next.png" id="inverse">
-            <img src="img/next.png" id="next">
+            <img src="{{ url_for('static', filename='img/banorte_ORIGINAL.png') }}" id="banorte1">
+            <img src="{{ url_for('static', filename='img/next.png') }}" id="inverse">
+            <img src="{{ url_for('static', filename='img/next.png') }}" id="next">
             <br>
             <div class="message">
                 <p><b>Observe the padlock. </b>There are companies that are dedicated to certify websites so that people stay safe when visiting. Usually a padlock that represents the page is safe (although there are cases where it isn't)
@@ -52,9 +52,9 @@
             <h2>This is a fake website for obvious reasons:
                 Banorte (or any legit company) will have its webpage domain like that 
             </h2>
-            <img src="img/banorte_FAKE.png" id="banorte1">
-            <img src="img/next.png" id="inverse2">
-            <img src="img/next.png" id="next2">
+            <img src="{{ url_for('static', filename='img/banorte_FAKE.png') }}" id="banorte1">
+            <img src="{{ url_for('static', filename='img/next.png') }}" id="inverse2">
+            <img src="{{ url_for('static', filename='img/next.png') }}" id="next2">
             <br>
             <br>
             <div class="message2">
@@ -66,7 +66,7 @@
             <br>
             <br>
             <br>
-            <a href="validacion.html">Click for testing URL</a>
+            <a href="{{url_for('validacion')}}">Click for testing URL</a>
         </form>
     </div>
     
@@ -81,7 +81,7 @@
             <br>
             <br>
             <br>
-            <a href="validacion.html">Click for testing URL</a>
+            <a href="{{url_for('validacion')}}">Click for testing URL</a>
         </form>
     </div>
     

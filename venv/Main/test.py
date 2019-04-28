@@ -3,6 +3,12 @@ import whois
 import socket
 from urllib.parse import urlparse
 import datetime
+import OpenSSL
+import urllib, bs4
+import socket
+from urllib.request import urlopen
+import ssl
+
 
 URL = "https://mimamamemima-guapo.com.mx"
 URL2 = "http://125.32.25.23/banorte/depositar"
@@ -12,6 +18,14 @@ URL3 = "https://www.google.com/"
 parsed_uri = urlparse(URL3)
 result = (parsed_uri.netloc)
 print(result)
+
+esIP = -1
+try:
+    socket.inet_aton(result)
+    esIP = 1
+except socket.error:
+    pass
+print(esIP)
 
 longitud = len(URL3)
 print(longitud)
@@ -47,7 +61,7 @@ ahorita = datetime.datetime.now()
 if(estaEnWhoIs == 1):
     fechaDeCreacion = domain.creation_date[0]
     edad = (ahorita-fechaDeCreacion).days
-
+print(edad)
 
 
 parsed_uri = urlparse(URL3)
@@ -61,6 +75,19 @@ except socket.error:
     DNSRecord = -1
 print(DNSRecord)
 
+cert = (ssl.get_server_certificate((result, 443)))
+x509 = OpenSSL.crypto.load_certificate(OpenSSL.crypto.FILETYPE_PEM, cert)
+holea = x509.get_subject().get_components()
+issuer = x509.get_issuer()
+issued_by = issuer.CN
+print(issued_by)
+rango = -1
+try:
+    sopa = bs4.BeautifulSoup(urlopen("http://data.alexa.com/data?cli=10&dat=s&url="+ result),features="html.parser")
+    rango = sopa.reach['rank']
+except:
+    pass
+print(rango)
 
 
 

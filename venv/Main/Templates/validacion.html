@@ -4,22 +4,23 @@
 <head>
     <meta charset="utf-8">
     <title>Phishing Detector</title>
-    <link rel="stylesheet" href="css/validacion.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/validacion.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
     
 <body>
     <div class="container">
-            <form class="box" action="" method="post">
+            <div class="box">
                 <h1>Phishing Detector</h1>
                 <table>
                     <tr>
                         <h2>Ingresa el URL a detectar</h2>
                         <th>
-                            <input type="text" name="correo" placeholder="URL ej. hackmx.mx" id="correo">
+                            <input type="text" name="input_url" placeholder="URL ej. hackmx.mx" id="input_url">
                         </th>
                         <th>
-                            <input type="submit" value="Verificar">
+                            <input type="button" value="Verificar" id="boton_url">
                         </th>
                     </tr>
                     <tr>
@@ -27,7 +28,7 @@
                             <input type="text" name="correo" placeholder="Mail ej. banorte@hack.mx" id="correo">
                         </th>
                         <th>
-                            <input type="submit" value="Verificar">
+                            <input type="submit" name="btn" value="Verificar">
                         </th>
                     </tr>
                 </table>
@@ -35,13 +36,29 @@
                 <br>
                 <br>
                 <a href="index.html">Back to Index</a>
-            </form>
+            </div>
     </div>
     
-    <script>
+   <script>
+   var vered = "";
+    $(document).ready(function(){
+        $('#boton_url').click(function(){
+           var url = $('#input_url').val();
+            req = $.ajax({
+                url: '/validacion',
+                type: 'POST',
+                data: {url: url}
 
-        
-    </script>
+            });
+           console.log(req);
+            req.done(function(data){
+               vered = data.vered;
+               console.log(vered);
+            });
+
+       });
+    });
+</script>
     
 </body>
 </html>

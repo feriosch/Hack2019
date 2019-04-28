@@ -4,6 +4,7 @@ import socket
 from urllib.request import urlopen
 import ssl
 
+
 cert = (ssl.get_server_certificate(('bimbo.com', 443)))
 x509 = OpenSSL.crypto.load_certificate(OpenSSL.crypto.FILETYPE_PEM, cert)
 holea = x509.get_subject().get_components()
