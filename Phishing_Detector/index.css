@@ -24,10 +24,10 @@ width: 910px;
     background: white;
     text-align: center;
     width: 715px;
-    height: 800px;
+    height: 900px;
 }
 
-.container {
+.container-second {
     width: 910px;
     position: absolute;
     top: 37%;
@@ -38,14 +38,14 @@ width: 910px;
     display: none;
 }
 
-.container1 {
+.container-third {
     width: 910px;
     position: absolute;
-    top: 36%;
+    top: 37%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    height: 1926px;
+    height: 2000px;
     display: none;
 }
 
@@ -103,25 +103,24 @@ h3{
     width: 89%;
 }
 
-#flecha{
-    width: 13%;
-    position: absolute;
-    top: 317px;
-    left: 364px;
-}
-
-#flecha2{
-    width: 18%;
-    position: absolute;
-    top: 317px;
-    left: 194px;
-}
-
 #next{
     position: absolute;
     right: -14px;
     width: 13%;
     top: 620px;
+}
+
+#inverse, #inverse2{
+    position: absolute;
+    left: -14px;
+    width: 13%;
+    top: 620px;
+    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
 }
 
 .box a, .box1 a, .box0 a{
