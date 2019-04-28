@@ -1,0 +1,265 @@
+﻿Domain,IP,longitud,arroba,guion,puntos,HTTPS,whoIs,edad,DNS,issued,rango
+www.facebook.com,-1,26,-1,-1,2,1,1,8064,1,DigiCert SHA2 High Assurance Server CA,3
+www.twitter.com,-1,25,-1,-1,2,1,1,7036,1,DigiCert SHA2 High Assurance Server CA,10
+www.google.com,-1,24,-1,-1,2,1,1,7894,1,Google Internet Authority G3,1
+www.youtube.com,-1,25,-1,-1,2,1,-1,-1,1,Google Internet Authority G3,2
+www.instagram.com,-1,27,-1,-1,2,1,1,5440,1,DigiCert SHA2 High Assurance Server CA,16
+www.linkedin.com,-1,26,-1,-1,2,1,1,6020,1,DigiCert SHA2 Secure Server CA,27
+www.wordpress.org,-1,27,-1,-1,2,1,1,5874,1,Go Daddy Secure Certificate Authority - G2,321
+www.pinterest.com,-1,27,-1,-1,2,1,1,3439,1,DigiCert SHA2 High Assurance Server CA,72
+www.wikipedia.org,-1,27,-1,-1,2,1,1,6678,1,GlobalSign Organization Validation CA - SHA256 - G2,5
+www.wordpress.com,-1,27,-1,-1,2,1,-1,-1,1,COMODO RSA Domain Validation Secure Server CA,43
+www.blogspot.com,-1,26,-1,-1,2,1,-1,-1,1,Google Internet Authority G3,23
+www.apple.com,-1,23,-1,-1,2,1,1,11755,1,DigiCert SHA2 Extended Validation Server CA,56
+www.adobe.com,-1,23,-1,-1,2,1,1,11849,1,DigiCert SHA2 Secure Server CA,63
+www.tumblr.com,-1,24,-1,-1,2,1,1,4706,1,DigiCert SHA2 High Assurance Server CA,86
+www.amazon.com,-1,24,-1,-1,2,1,1,8943,1,DigiCert Global CA G2,13
+www.vimeo.com,-1,23,-1,-1,2,1,-1,-1,1,DigiCert SHA2 Secure Server CA,131
+www.flickr.com,-1,24,-1,-1,2,1,-1,-1,1,DigiCert SHA2 High Assurance Server CA,441
+www.microsoft.com,-1,27,-1,-1,2,1,-1,-1,1,Microsoft IT TLS CA 4,33
+www.yahoo.com,-1,23,-1,-1,2,1,1,8865,1,DigiCert SHA2 High Assurance Server CA,8
+www.godaddy.com,-1,25,-1,-1,2,1,1,7361,1,Go Daddy Secure Certificate Authority - G2,187
+www.qq.com,-1,20,-1,-1,2,1,1,8759,1,DigiCert SHA2 Secure Server CA,6
+www.bit.ly,-1,20,-1,-1,2,1,1,-1,1,DigiCert SHA2 Extended Validation Server CA,7975
+www.vk.com,-1,20,-1,-1,2,1,1,7977,1,GlobalSign Organization Validation CA - SHA256 - G2,18
+www.reddit.com,-1,24,-1,-1,2,1,1,5111,1,DigiCert SHA2 Secure Server CA,24
+www.w3.org,-1,20,-1,-1,2,1,1,9061,1,Gandi Standard SSL CA 2,2515
+www.baidu.com,-1,23,-1,-1,2,1,1,7138,1,GlobalSign Organization Validation CA - SHA256 - G2,4
+www.nytimes.com,-1,25,-1,-1,2,1,1,9230,1,COMODO RSA Organization Validation Secure Server CA,106
+www.t.co,-1,18,-1,-1,2,1,1,3288,1,DigiCert SHA2 High Assurance Server CA,31
+www.europa.eu,-1,23,-1,-1,2,1,1,-1,1,GlobalSign Organization Validation CA - SHA256 - G2,689
+www.buydomains.com,-1,28,-1,-1,2,1,1,8063,1,Sectigo RSA Domain Validation Secure Server CA,20941
+www.wp.com,-1,20,-1,-1,2,1,1,8065,1,COMODO RSA Domain Validation Secure Server CA,764
+www.statcounter.com,-1,29,-1,-1,2,1,1,7052,1,Go Daddy Secure Certificate Authority - G2,4547
+www.jimdo.com,-1,23,-1,-1,2,1,1,4895,1,GlobalSign CloudSSL CA - SHA256 - G3,968
+www.blogger.com,-1,25,-1,-1,2,1,1,7249,1,Google Internet Authority G3,215
+www.github.com,-1,24,-1,-1,2,1,1,4218,1,DigiCert SHA2 Extended Validation Server CA,48
+www.weebly.com,-1,24,-1,-1,2,1,1,4777,1,GeoTrust EV RSA CA 2018,246
+www.mozilla.org,-1,25,-1,-1,2,1,1,7763,1,DigiCert SHA2 Secure Server CA,127
+www.bbc.co.uk,-1,23,-1,-1,3,1,1,-1,1,GlobalSign Organization Validation CA - SHA256 - G2,104
+www.myspace.com,-1,25,-1,-1,2,1,1,8465,1,Go Daddy Secure Certificate Authority - G2,4373
+www.google.de,-1,23,-1,-1,2,1,1,-1,1,Google Internet Authority G3,69
+www.addthis.com,-1,25,-1,-1,2,1,1,7641,1,DigiCert SHA2 Secure Server CA,822
+www.nih.gov,-1,21,-1,-1,2,1,1,-1,1,Go Daddy Secure Certificate Authority - G2,116
+www.theguardian.com,-1,29,-1,-1,2,1,1,9061,1,GlobalSign CloudSSL CA - SHA256 - G3,126
+www.google.co.jp,-1,26,-1,-1,3,1,1,-1,1,Google Internet Authority G3,66
+www.cnn.com,-1,21,-1,-1,2,1,1,9348,1,GlobalSign CloudSSL CA - SHA256 - G3,85
+www.gravatar.com,-1,26,-1,-1,2,1,1,5399,1,COMODO RSA Domain Validation Secure Server CA,5497
+www.digg.com,-1,22,-1,-1,2,1,1,7006,1,GeoTrust SSL CA - G3,2606
+www.addtoany.com,-1,26,-1,-1,2,1,1,4796,1,COMODO ECC Domain Validation Secure Server CA 2,2931
+www.creativecommons.org,-1,33,-1,-1,2,1,1,6676,1,COMODO ECC Domain Validation Secure Server CA 2,5070
+www.paypal.com,-1,24,-1,-1,2,1,1,7226,1,DigiCert SHA2 Extended Validation Server CA,58
+,,,,,,,,,,,
+www.yelp.com,-1,22,-1,-1,2,1,1,5615,1,DigiCert SHA2 Secure Server CA,196
+www.imdb.com,-1,22,-1,-1,2,1,-1,-1,1,Amazon,50
+www.huffingtonpost.com,-1,32,-1,-1,2,1,-1,-1,1,DigiCert SHA2 Secure Server CA,-1
+www.feedburner.com,-1,28,-1,-1,2,1,1,5625,1,Google Internet Authority G3,21004
+www.issuu.com,-1,23,-1,-1,2,1,1,4391,1,DigiCert SHA2 Secure Server CA,672
+www.wixsite.com,-1,25,-1,-1,2,1,1,2544,1,Go Daddy Secure Certificate Authority - G2,366
+www.wix.com,-1,21,-1,-1,2,1,1,8751,1,DigiCert SHA2 Secure Server CA,415
+www.dropbox.com,-1,25,-1,-1,2,1,1,8704,1,DigiCert SHA2 Extended Validation Server CA,-1
+www.forbes.com,-1,24,-1,-1,2,1,1,9445,1,GlobalSign Organization Validation CA - SHA256 - G2,232
+www.google.co.uk,-1,26,-1,-1,3,1,1,7377,1,Google Internet Authority G3,113
+www.washingtonpost.com,-1,32,-1,-1,2,1,1,8566,1,Entrust Certification Authority - L1M,254
+www.bluehost.com,-1,26,-1,-1,2,1,1,6007,1,COMODO RSA Domain Validation Secure Server CA,1444
+www.etsy.com,-1,22,-1,-1,2,1,1,5559,1,GlobalSign CloudSSL CA - SHA256 - G3,178
+www.msn.com,-1,21,-1,-1,2,1,1,8934,1,Microsoft IT TLS CA 4,47
+www.ameblo.jp,-1,23,-1,-1,2,1,1,-1,1,Cybertrust Japan Public CA G3,282
+www.archive.org,-1,25,-1,-1,2,1,1,8535,1,Go Daddy Secure Certificate Authority - G2,268
+www.slideshare.net,-1,28,-1,-1,2,1,1,4770,1,DigiCert SHA2 Secure Server CA,124
+www.e-recht24.de,-1,26,-1,1,2,1,1,-1,1,Plesk,80989
+www.weibo.com,-1,23,-1,-1,2,1,1,7343,1,DigiCert SHA2 Secure Server CA,19
+www.fc2.com,-1,21,-1,-1,2,1,1,7282,1,GeoTrust RSA CA 2018,153
+www.eventbrite.com,-1,28,-1,-1,2,1,1,4839,1,DigiCert SHA2 High Assurance Server CA,576
+www.parallels.com,-1,27,-1,-1,2,1,1,6732,1,COMODO RSA Domain Validation Secure Server CA,15244
+www.doubleclick.net,-1,29,-1,-1,2,1,1,8502,1,Google Internet Authority G3,214
+www.mail.ru,-1,21,-1,-1,2,1,1,7882,1,GeoTrust RSA CA 2018,30
+www.sourceforge.net,-1,29,-1,-1,2,1,1,7202,1,Let's Encrypt Authority X3,352
+www.amazon.co.uk,-1,26,-1,-1,3,1,1,-1,1,DigiCert Global CA G2,102
+www.telegraph.co.uk,-1,29,-1,-1,3,1,1,-1,1,DigiCert ECC Secure Server CA,619
+www.ebay.com,-1,22,-1,-1,2,1,1,8667,1,DigiCert SHA2 Secure Server CA,49
+www.amzn.to,-1,21,-1,-1,2,1,1,-1,1,DigiCert SHA2 Extended Validation Server CA,373876
+www.livejournal.com,-1,29,-1,-1,2,1,1,7317,1,RapidSSL RSA CA 2018,205
+www.free.fr,-1,21,-1,-1,2,1,1,7348,1,RapidSSL RSA CA 2018,468
+www.yahoo.co.jp,-1,25,-1,-1,3,1,1,-1,1,Cybertrust Japan Public CA G3,38
+www.wikimedia.org,-1,27,-1,-1,2,1,1,5886,1,GlobalSign Organization Validation CA - SHA256 - G2,227
+www.amazon.de,-1,23,-1,-1,2,1,1,-1,1,DigiCert Global CA G2,96
+www.hatena.ne.jp,-1,26,-1,-1,3,1,1,-1,1,Amazon,858
+www.bloomberg.com,-1,27,-1,-1,2,1,1,9341,1,DigiCert SHA2 Extended Validation Server CA,467
+www.elegantthemes.com,-1,31,-1,-1,2,1,1,3854,1,DigiCert SHA2 Extended Validation Server CA,3940
+www.eepurl.com,-1,24,-1,-1,2,1,1,3778,1,DigiCert ECC Secure Server CA,543065
+www.usatoday.com,-1,26,-1,-1,2,1,1,9129,1,DigiCert SHA2 High Assurance Server CA,387
+www.about.com,-1,23,-1,-1,2,1,1,7351,1,GlobalSign CloudSSL CA - SHA256 - G3,5040
+www.medium.com,-1,24,-1,-1,2,1,1,7640,1,DigiCert SHA2 Extended Validation Server CA,143
+www.macromedia.com,-1,28,-1,-1,2,1,1,9480,1,DigiCert SHA2 Secure Server CA,23335
+www.bing.com,-1,22,-1,-1,2,1,1,8489,1,Microsoft IT TLS CA 5,34
+www.google.it,-1,23,-1,-1,2,1,1,7078,1,Google Internet Authority G3,90
+www.cdc.gov,-1,21,-1,-1,2,1,1,-1,1,GeoTrust RSA CA 2018,1374
+www.tripadvisor.com,-1,29,-1,-1,2,1,1,7340,1,DigiCert SHA2 Extended Validation Server CA,256
+www.cpanel.net,-1,24,-1,-1,2,1,1,6740,1,COMODO RSA Domain Validation Secure Server CA,5193
+www.amazon.co.jp,-1,26,-1,-1,3,1,1,-1,1,DigiCert Global CA G2,54
+www.npr.org,-1,21,-1,-1,2,1,1,9266,1,DigiCert SHA2 Extended Validation Server CA,506
+www.harvard.edu,-1,25,-1,-1,2,1,1,-1,1,DigiCert SHA2 Secure Server CA,739
+www.bbb.org,-1,21,-1,-1,2,1,1,8747,1,RapidSSL RSA CA 2018,3759
+www.aol.com,-1,21,-1,-1,2,1,1,8710,1,DigiCert SHA2 High Assurance Server CA,362
+www.constantcontact.com,-1,33,-1,-1,2,1,1,7514,1,COMODO ECC Domain Validation Secure Server CA 2,1350
+www.icio.us,-1,21,-1,-1,2,1,1,6203,1,Gandi Standard SSL CA 2,156371
+www.list-manage.com,-1,29,-1,1,2,1,1,4757,1,Thawte RSA CA 2018,516
+www.webs.com,-1,22,-1,-1,2,1,1,8789,1,COMODO ECC Domain Validation Secure Server CA 2,7196
+www.opera.com,-1,23,-1,-1,2,1,1,7318,1,DigiCert SHA2 Extended Validation Server CA,544
+,,,,,,,,,,,
+www.beian.gov.cn,-1,26,-1,-1,3,1,1,1685,1,Encryption Everywhere DV TLS CA - G1,21661
+,,,,,,,,,,,
+www.vkontakte.ru,-1,26,-1,-1,2,1,1,4592,1,Go Daddy Secure Certificate Authority - G2,139745
+,,,,,,,,,,,
+www.blogspot.co.uk,-1,28,-1,-1,3,1,1,-1,1,Google Internet Authority G3,-1
+,,,,,,,,,,,
+www.live.com,-1,22,-1,-1,2,1,1,8886,1,DigiCert Cloud Services CA-1,14
+,,,,,,,,,,,
+www.bandcamp.com,-1,26,-1,-1,2,1,1,5799,1,GlobalSign Domain Validation CA - SHA256 - G2,581
+,,,,,,,,,,,
+www.apache.org,-1,24,-1,-1,2,1,1,8782,1,COMODO RSA Domain Validation Secure Server CA,1182
+,,,,,,,,,,,
+www.bbc.com,-1,21,-1,-1,2,1,1,10878,1,GlobalSign Organization Validation CA - SHA256 - G2,84
+,,,,,,,,,,,
+www.businessinsider.com,-1,33,-1,-1,2,1,1,7722,1,GlobalSign Organization Validation CA - SHA256 - G2,376
+,,,,,,,,,,,
+www.dailymotion.com,-1,29,-1,-1,2,1,1,5156,1,DigiCert SHA2 High Assurance Server CA,120
+,,,,,,,,,,,
+www.cpanel.com,-1,24,-1,-1,2,1,1,6994,1,COMODO RSA Domain Validation Secure Server CA,110122
+,,,,,,,,,,,
+www.disqus.com,-1,24,-1,-1,2,1,1,4524,1,DigiCert SHA2 Secure Server CA,1306
+,,,,,,,,,,,
+www.behance.net,-1,25,-1,-1,2,1,1,4920,1,DigiCert SHA2 Secure Server CA,408
+,,,,,,,,,,,
+www.mit.edu,-1,21,-1,-1,2,1,1,-1,1,GeoTrust RSA CA 2018,474
+,,,,,,,,,,,
+www.rambler.ru,-1,24,-1,-1,2,1,1,8248,1,RapidSSL RSA CA 2018,234
+,,,,,,,,,,,
+www.gnu.org,-1,21,-1,-1,2,1,1,8555,1,Let's Encrypt Authority X3,5299
+,,,,,,,,,,,
+www.sina.com.cn,-1,25,-1,-1,3,1,1,7463,1,GeoTrust RSA CA 2018,15
+,,,,,,,,,,,
+www.spotify.com,-1,25,-1,-1,2,1,1,4752,1,DigiCert SHA2 Secure Server CA,107
+,,,,,,,,,,,
+www.joomla.org,-1,24,-1,-1,2,1,1,4997,1,"cPanel, Inc. Certification Authority",11376
+,,,,,,,,,,,
+www.google.es,-1,23,-1,-1,2,1,1,-1,1,Google Internet Authority G3,105
+,,,,,,,,,,,
+www.line.me,-1,21,-1,-1,2,1,1,4015,1,GeoTrust RSA CA 2018,285
+,,,,,,,,,,,
+www.wired.com,-1,23,-1,-1,2,1,1,9654,1,GlobalSign CloudSSL CA - SHA256 - G3,1135
+,,,,,,,,,,,
+www.github.io,-1,23,-1,-1,2,1,1,-1,1,DigiCert SHA2 High Assurance Server CA,-1
+,,,,,,,,,,,
+www.stanford.edu,-1,26,-1,-1,2,1,1,-1,1,RapidSSL RSA CA 2018,831
+,,,,,,,,,,,
+www.googleusercontent.com,-1,35,-1,-1,2,1,1,3813,1,Google Internet Authority G3,68
+,,,,,,,,,,,
+www.kickstarter.com,-1,29,-1,-1,2,1,1,7438,1,GlobalSign CloudSSL CA - SHA256 - G3,546
+,,,,,,,,,,,
+www.guardian.co.uk,-1,28,-1,-1,3,1,1,-1,1,GlobalSign CloudSSL CA - SHA256 - G3,55153
+,,,,,,,,,,,
+www.imgur.com,-1,23,-1,-1,2,1,1,3760,1,DigiCert SHA2 Secure Server CA,53
+,,,,,,,,,,,
+www.google.fr,-1,23,-1,-1,2,1,1,6849,1,Google Internet Authority G3,83
+,,,,,,,,,,,
+www.goodreads.com,-1,27,-1,-1,2,1,1,5983,1,Amazon,397
+,,,,,,,,,,,
+www.rakuten.co.jp,-1,27,-1,-1,3,1,1,-1,1,DigiCert SHA2 Extended Validation Server CA,-1
+,,,,,,,,,,,
+www.surveymonkey.com,-1,30,-1,-1,2,1,1,7111,1,DigiCert SHA2 Secure Server CA,-1
+,,,,,,,,,,,
+www.independent.co.uk,-1,31,-1,-1,3,1,1,-1,1,GlobalSign CloudSSL CA - SHA256 - G3,779
+,,,,,,,,,,,
+www.whatsapp.com,-1,26,-1,-1,2,1,1,3887,1,DigiCert SHA2 High Assurance Server CA,37
+,,,,,,,,,,,
+www.one.com,-1,21,-1,-1,2,1,1,9936,1,Let's Encrypt Authority X3,3930
+,,,,,,,,,,,
+www.photobucket.com,-1,29,-1,-1,2,1,1,5833,1,Go Daddy Secure Certificate Authority - G2,3868
+,,,,,,,,,,,
+www.ted.com,-1,21,-1,-1,2,1,1,8936,1,Let's Encrypt Authority X3,1005
+,,,,,,,,,,,
+www.homestead.com,-1,27,-1,-1,2,1,1,7980,1,COMODO RSA Domain Validation Secure Server CA,21599
+,,,,,,,,,,,
+www.google.ca,-1,23,-1,-1,2,1,1,6779,1,Google Internet Authority G3,185
+,,,,,,,,,,,
+www.cnet.com,-1,22,-1,-1,2,1,1,9184,1,GeoTrust RSA CA 2018,164
+,,,,,,,,,,,
+www.1und1.de,-1,22,-1,-1,2,1,1,-1,1,GeoTrust EV RSA CA 2018,3243
+,,,,,,,,,,,
+www.scribd.com,-1,24,-1,-1,2,1,1,4598,1,Gandi Standard SSL CA 2,160
+,,,,,,,,,,,
+www.domainname.de,-1,27,-1,-1,2,1,1,-1,1,Let's Encrypt Authority X3,546117
+,,,,,,,,,,,
+www.ca.gov,-1,20,-1,-1,2,1,1,-1,1,COMODO RSA Extended Validation Secure Server CA,737
+,,,,,,,,,,,
+www.shopify.com,-1,25,-1,-1,2,1,1,5160,1,Kubernetes Ingress Controller Fake Certificate,265
+,,,,,,,,,,,
+www.plesk.com,-1,23,-1,-1,2,1,1,7257,1,COMODO ECC Domain Validation Secure Server CA 2,10463
+,,,,,,,,,,,
+www.un.org,-1,20,-1,-1,2,1,1,8852,1,COMODO RSA Organization Validation Secure Server CA,1586
+,,,,,,,,,,,
+www.buzzfeed.com,-1,26,-1,-1,2,1,1,6107,1,GeoTrust TLS RSA CA G1,296
+,,,,,,,,,,,
+www.theatlantic.com,-1,29,-1,-1,2,1,1,8656,1,GlobalSign Organization Validation CA - SHA256 - G2,1417
+,,,,,,,,,,,
+www.barnesandnoble.com,-1,32,-1,-1,2,1,1,8661,1,DigiCert SHA2 Secure Server CA,2517
+,,,,,,,,,,,
+www.sakura.ne.jp,-1,26,-1,-1,3,1,1,-1,1,proxy100.www.sakura.ad.jp,1181
+,,,,,,,,,,,
+www.pbs.org,-1,21,-1,-1,2,1,1,8774,1,Let's Encrypt Authority X3,1467
+,,,,,,,,,,,
+www.nationalgeographic.com,-1,36,-1,-1,2,1,1,8600,1,GeoTrust RSA CA 2018,1286
+,,,,,,,,,,,
+www.getpocket.com,-1,27,-1,-1,2,1,1,3005,1,Amazon,667
+,,,,,,,,,,,
+www.blogspot.com.es,-1,29,-1,-1,3,1,1,-1,1,Google Internet Authority G3,-1
+,,,,,,,,,,,
+www.nature.com,-1,24,-1,-1,2,1,1,9025,1,GlobalSign CloudSSL CA - SHA256 - G3,676
+,,,,,,,,,,,
+www.networksolutions.com,-1,34,-1,-1,2,1,1,7670,1,Sectigo RSA Extended Validation Secure Server CA,13850
+,,,,,,,,,,,
+www.webmd.com,-1,23,-1,-1,2,1,1,7691,1,COMODO ECC Domain Validation Secure Server CA 2,423
+,,,,,,,,,,,
+www.foxnews.com,-1,25,-1,-1,2,1,1,8711,1,DigiCert SHA2 Extended Validation Server CA,229
+,,,,,,,,,,,
+www.cbsnews.com,-1,25,-1,-1,2,1,1,8971,1,DigiCert SHA2 Secure Server CA,876
+,,,,,,,,,,,
+www.techcrunch.com,-1,28,-1,-1,2,1,1,5068,1,Go Daddy Secure Certificate Authority - G2,-1
+,,,,,,,,,,,
+www.booking.com,-1,25,-1,-1,2,1,1,7680,1,DigiCert ECC Secure Server CA,103
+,,,,,,,,,,,
+www.php.net,-1,21,-1,-1,2,1,1,7830,1,Gandi Standard SSL CA 2,1131
+,,,,,,,,,,,
+www.berkeley.edu,-1,26,-1,-1,2,1,1,-1,1,Amazon,1228
+,,,,,,,,,,,
+www.sciencedirect.com,-1,31,-1,-1,2,1,1,8081,1,DigiCert SHA2 Secure Server CA,169
+,,,,,,,,,,,
+www.ibm.com,-1,21,-1,-1,2,1,1,12092,1,GeoTrust RSA CA 2018,673
+,,,,,,,,,,,
+www.163.com,-1,21,-1,-1,2,1,1,7894,1,DigiCert SHA2 Secure Server CA,78
+,,,,,,,,,,,
+www.nbcnews.com,-1,25,-1,-1,2,1,1,7975,1,DigiCert SHA2 Secure Server CA,616
+,,,,,,,,,,,
+www.skype.com,-1,23,-1,-1,2,1,1,5848,1,Microsoft IT TLS CA 5,447
+,,,,,,,,,,,
+www.mashable.com,-1,26,-1,-1,2,1,1,5030,1,Amazon,1170
+,,,,,,,,,,,
+www.cornell.edu,-1,25,-1,-1,2,1,1,-1,1,InCommon RSA Server CA,1587
+,,,,,,,,,,,
+www.naver.com,-1,23,-1,-1,2,1,1,7897,1,GeoTrust RSA CA 2018,51
+,,,,,,,,,,,
+www.usda.gov,-1,22,-1,-1,2,1,1,-1,1,GeoTrust RSA CA 2018,3420
+,,,,,,,,,,,
+www.wp.me,-1,19,-1,-1,2,1,1,3564,1,COMODO RSA Domain Validation Secure Server CA,498424
+,,,,,,,,,,,
+www.4.cn,-1,18,-1,-1,2,1,1,5885,1,GeoTrust EV RSA CA 2018,161122
+,,,,,,,,,,,
+www.springer.com,-1,26,-1,-1,2,1,1,8003,1,Let's Encrypt Authority X3,328
+,,,,,,,,,,,
+www.whitehouse.gov,-1,28,-1,-1,2,1,1,-1,1,DigiCert SHA2 Secure Server CA,9207
+,,,,,,,,,,,
+www.squarespace.com,-1,29,-1,-1,2,1,1,5877,1,DigiCert SHA2 High Assurance Server CA,587
+,,,,,,,,,,,
+www.phoca.cz,-1,21,-1,-1,2,1,1,4280,1,Let's Encrypt Authority X3,148945

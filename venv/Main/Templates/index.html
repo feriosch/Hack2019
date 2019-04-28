@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Phishing Tutorial</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+</head>
+    
+<body>
+    <div class="container-first">
+        <form class="box0" action="" method="post">
+            <h1>Phishing Tutorial</h1>
+            <h2>Welcome!</h2>
+            <h2>Let's review some details </h2>
+            <h2>about phishing on webpages</h2>
+            <h3>Start Tutorial</h3>
+            <br>
+            <br>
+            <br>
+            <br>
+            <a href="{{url_for('validacion')}}">Click for testing URL</a>
+        </form>
+    </div>
+    
+    <div class="container-second">
+        <form class="box">
+            <h1>Padlock</h1>
+            <h2>How do we recognize a fake website?</h2>
+            <h2>Legitimate Banorte's webpage: </h2>
+            <img src="{{ url_for('static', filename='img/banorte_ORIGINAL.png') }}" id="banorte1">
+            <img src="{{ url_for('static', filename='img/next.png') }}" id="inverse">
+            <img src="{{ url_for('static', filename='img/next.png') }}" id="next">
+            <br>
+            <div class="message">
+                <p><b>Observe the padlock. </b>There are companies that are dedicated to certify websites so that people stay safe when visiting. Usually a padlock that represents the page is safe (although there are cases where it isn't)
+                    <a class="btn">OK</a>
+                </p>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <a href="validacion.html">Click for testing URL</a>
+        </form>
+    </div>
+    <div class="container-third">
+        <form class="box1" >
+            <h1>Fake Website</h1>
+            <h2>This is a fake website for obvious reasons:
+                Banorte (or any legit company) will have its webpage domain like that 
+            </h2>
+            <img src="{{ url_for('static', filename='img/banorte_FAKE.png') }}" id="banorte1">
+            <img src="{{ url_for('static', filename='img/next.png') }}" id="inverse2">
+            <img src="{{ url_for('static', filename='img/next.png') }}" id="next2">
+            <br>
+            <br>
+            <div class="message2">
+            <p><b>There's no padlock!</b><br>
+                What we see is a clear example of fake webpage to get personal data of victims
+                <a class="btn">OK</a>
+            </p>
+        </div>
+            <br>
+            <br>
+            <br>
+            <a href="{{url_for('validacion')}}">Click for testing URL</a>
+        </form>
+    </div>
+    
+    <div class="container-fourth">
+        <form class="box2" >
+            <h1>Prevent Phishing!</h1>
+            <h2>So when you're not sure, don't submit anything!
+            </h2>
+            <img src="img/next.png" id="inverse3">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <a href="{{url_for('validacion')}}">Click for testing URL</a>
+        </form>
+    </div>
+    
+    <script>
+    
+    //Que aparezca el mensaje
+    $(".container-second .message").delay(3000).fadeIn(100); 
+    
+    
+    //Cuando de OK, desaparece el mensaje
+    $(".btn").click(function() {
+      $(".message").hide();
+      $(".message2").hide();
+    });
+        
+    //Para ir al del 1 al 2
+    $("h3").click(function() {
+      $(".container-first").hide();
+      $(".container-second").show();
+    });
+        
+    //Para ir del 2 al 1
+    $("#inverse").click(function() {
+      $(".container-second").hide();
+      $(".container-first").show();
+    });
+    
+    //Para ir del 2 al 3
+    $("#next").click(function() {
+      $(".container-second").hide();
+      $(".container-third").show();
+      $(".container-third .message2").delay(3000).fadeIn(100);
+    });
+        
+    //Para ir del 3 al 2
+    $("#inverse2").click(function() {
+      $(".container-third").hide();
+      $(".container-second").show();
+    });
+    
+    //Para ir del 3 al 4
+    $("#next2").click(function() {
+      $(".container-third").hide();
+      $(".container-fourth").show();
+    });
+        
+    //Para ir del 4 al 3
+    $("#inverse3").click(function() {
+      $(".container-fourth").hide();
+      $(".container-third").show();
+    });
+    
+    window.addEventListener('load',function(){
+          blink('a'); // blink a
+        }); 
+        
+    function blink(x){
+      var target = document.querySelector(x); // target element
+      var count = 0;
+      var speed = 610; // blinking speed in ms
+      var id = setInterval(myFunction,speed); // repeatedly call myFunction 
+      function myFunction(){
+        if(count == 0) {   // is_count = 0? 
+          target.style.opacity = "0"; // if yes, change opacity of target to 0
+          count++; // increment counter by 1, now value of count is 1
+        }
+        else if(count == 1){ // is_count = 1?
+         target.style.opacity = '1'; // if yes, change opacity of target to 1
+         count = 0; // set count value to 0 
+        }
+      }
+    }
+    </script>
+    
+    
+</body>
+</html>
