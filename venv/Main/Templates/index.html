@@ -43,7 +43,7 @@
             <br>
             <br>
             <br>
-            <a href="validacion.html">Click for testing URL</a>
+            <a href="{{url_for('validacion')}}">Click for testing URL</a>
         </form>
     </div>
     <div class="container-third">
@@ -75,7 +75,7 @@
             <h1>Prevent Phishing!</h1>
             <h2>So when you're not sure, don't submit anything!
             </h2>
-            <img src="img/next.png" id="inverse3">
+            <img src="{{ url_for('static', filename='img/next.png') }}" id="inverse3">
             <br>
             <br>
             <br>
