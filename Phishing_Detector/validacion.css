@@ -17,7 +17,7 @@ body{
 
 .box{
     border-radius: 20px;
-    padding: 140px 70px 20px 102px;
+    padding: 40px 110px 13px 89px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -36,9 +36,9 @@ body{
 }
 
 .box h2{
-    color: #333333;
+    color: darkred;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -75,4 +75,15 @@ body{
 .box input:hover{
   background: #e6ffee;
   border: 2px solid black;
+}
+
+.container a{
+    font-weight: 400;
+    font-size: 43px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    border: 3px solid black;
+    color: deeppink;
+    padding: 13px;
+    border-radius: 13px;
 }
