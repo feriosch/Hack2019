@@ -13,3 +13,5 @@ def home_page():
         request.form.get("palabra_clave")
 
 
+
+
