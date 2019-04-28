@@ -4,41 +4,90 @@
 <head>
     <meta charset="utf-8">
     <title>Phishing Tutorial</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
     
 <body>
+    <div class="container-first">
+        <form class="box0" action="" method="post">
+            <h1>Phishing Tutorial</h1>
+            <h2>Welcome!</h2>
+            <h2>Let's review some details </h2>
+            <h2>about phishing on webpages</h2>
+            <h3>Start Tutorial</h3>
+            <br>
+            <br>
+            <br>
+            <br>
+            <a href="validacion.html">Click for testing URL</a>
+        </form>
+    </div>
+    
     <div class="container">
             <form class="box" action="" method="post">
                 <h1>Phishing Tutorial</h1>
+                <h2>How do we recognize a fake website?</h2>
+                <img src="img/banorte_ORIGINAL.png" id="banorte1">
+                <img src="img/flecha.png" id="flecha">
+                <img src="img/next.png" id="next">
                 <br>
                 <br>
                 <br>
                 <br>
                 <br>
+                <a href="validacion.html">Click for testing URL</a>
+            </form>
+    </div>
+    <div class="container1">
+            <form class="box1" action="" method="post">
+                <h1>Phishing Tutorial</h1>
+                <h2>This is a fake website</h2>
+                <img src="img/banorte_FAKE.png" id="banorte1">
+                <img src="img/flecha.png" id="flecha2">
+                <img src="img/next.png" id="next">
                 <br>
                 <br>
                 <br>
                 <br>
                 <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <a href="validacion.html">Let's test my URL!</a>
+                <a href="validacion.html">Click for testing URL</a>
             </form>
     </div>
     
     <script>
-    
+    //Para ocultar primer container
+    $("h3").click(function() {
+      $(".container-first").hide();
+      $(".container").show();
+    });
+        
+    $("#next").click(function() {
+      $(".container").hide();
+      $(".container1").show();
+    });
+        
+    window.addEventListener('load',function(){
+          blink('a'); // blink a
+        }); 
+        
+    function blink(x){
+      var target = document.querySelector(x); // target element
+      var count = 0;
+      var speed = 610; // blinking speed in ms
+      var id = setInterval(myFunction,speed); // repeatedly call myFunction 
+      function myFunction(){
+        if(count == 0) {   // is_count = 0? 
+          target.style.opacity = "0"; // if yes, change opacity of target to 0
+          count++; // increment counter by 1, now value of count is 1
+        }
+        else if(count == 1){ // is_count = 1?
+         target.style.opacity = '1'; // if yes, change opacity of target to 1
+         count = 0; // set count value to 0 
+        }
+      }
+    }
     </script>
     
     
