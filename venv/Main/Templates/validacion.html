@@ -40,6 +40,7 @@
     </div>
     
    <script>
+   var vered = "";
     $(document).ready(function(){
         $('#boton_url').click(function(){
            var url = $('#input_url').val();
@@ -51,7 +52,8 @@
             });
            console.log(req);
             req.done(function(data){
-               console.log(data.vered);
+               vered = data.vered;
+               console.log(vered);
             });
 
        });
