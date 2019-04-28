@@ -25,12 +25,13 @@
         </form>
     </div>
     
-    <div class="container">
+    <div class="container-second">
             <form class="box" action="" method="post">
                 <h1>Phishing Tutorial</h1>
                 <h2>How do we recognize a fake website?</h2>
+                <h2>Legitimate Banorte's webpage: </h2>
                 <img src="img/banorte_ORIGINAL.png" id="banorte1">
-                <img src="img/flecha.png" id="flecha">
+                <img src="img/next.png" id="inverse">
                 <img src="img/next.png" id="next">
                 <br>
                 <br>
@@ -40,13 +41,14 @@
                 <a href="validacion.html">Click for testing URL</a>
             </form>
     </div>
-    <div class="container1">
+    <div class="container-third">
             <form class="box1" action="" method="post">
                 <h1>Phishing Tutorial</h1>
-                <h2>This is a fake website</h2>
+                <h2>This is a fake website for obvious reasons:
+                    Banorte (or any legit company) will have its webpage domain like that 
+                </h2>
                 <img src="img/banorte_FAKE.png" id="banorte1">
-                <img src="img/flecha.png" id="flecha2">
-                <img src="img/next.png" id="next">
+                <img src="img/next.png" id="inverse2">
                 <br>
                 <br>
                 <br>
@@ -57,15 +59,28 @@
     </div>
     
     <script>
-    //Para ocultar primer container
+    //Para ir al del 1 al 2
     $("h3").click(function() {
       $(".container-first").hide();
-      $(".container").show();
+      $(".container-second").show();
     });
         
+    //Para ir del 2 al 1
+    $("#inverse").click(function() {
+      $(".container-second").hide();
+      $(".container-first").show();
+    });
+    
+    //Para ir del 2 al 3
     $("#next").click(function() {
-      $(".container").hide();
-      $(".container1").show();
+      $(".container-second").hide();
+      $(".container-third").show();
+    });
+        
+    //Para ir del 3 al 2
+    $("#inverse2").click(function() {
+      $(".container-third").hide();
+      $(".container-second").show();
     });
         
     window.addEventListener('load',function(){
