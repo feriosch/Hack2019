@@ -5,43 +5,135 @@ body{
     font-family: Poppins-Regular, sans-serif;
 }
 
-.container{
-    width: 910px;
+.container-first {
+width: 910px;
     position: absolute;
-    top: 50%;
+    top: 44%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    height: 810px;
 }
 
-.box{
+.box0 {
     border-radius: 20px;
-    padding: 140px 70px 20px 102px;
+    padding: 0px 74px 0px 102px;
     position: absolute;
-    top: 50%;
+    top: 64%;
     left: 50%;
     transform: translate(-50%,-50%);
     background: white;
     text-align: center;
     width: 715px;
-    height: 810px;
+    height: 800px;
 }
 
-.box h1{
+.container {
+    width: 910px;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    height: 1926px;
+    display: none;
+}
+
+.container1 {
+    width: 910px;
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    height: 1926px;
+    display: none;
+}
+
+.box {
+    border-radius: 20px;
+    padding: 0px 74px 0px 102px;
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    text-align: center;
+    width: 715px;
+    height: 1500px;
+}
+
+.box1{
+    border-radius: 20px;
+    padding: 0px 74px 0px 102px;
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    text-align: center;
+    width: 715px;
+    height: 1500px;
+}
+
+h1{
     color: #333333;
     font-weight: 900;
     font-size: 78px;
     font-family: 'Poppins', sans-serif;
 }
 
-.box a{
+h2{
+    color: darkred;
+    margin-top: -28px;
+    font-weight: 900;
+    font-size: 38px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    color: deeppink;
+    font-weight: 900;
+    font-size: 62px;
+    font-family: 'Poppins', sans-serif;
+    border: 3px solid black;
+    border-radius: 13px;
+}
+
+#banorte1{
+    width: 89%;
+}
+
+#flecha{
+    width: 13%;
+    position: absolute;
+    top: 317px;
+    left: 364px;
+}
+
+#flecha2{
+    width: 18%;
+    position: absolute;
+    top: 317px;
+    left: 194px;
+}
+
+#next{
+    position: absolute;
+    right: -14px;
+    width: 13%;
+    top: 620px;
+}
+
+.box a, .box1 a, .box0 a{
     font-weight: 400;
     font-size: 51px;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    border: 3px solid deepskyblue;
+    border: 3px solid black;
     color: black;
+    padding: 13px;
+    border-radius: 13px;
+
 }
 
 .box a:hover{
